@@ -1,0 +1,111 @@
+header{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    background-color: #4b0081;
+    padding-left: 2%;
+    padding-right: 0.5%;
+    z-index: 1;
+}
+#logo-header{
+    height: 4vh;
+    width: 5vw;
+}
+#search-bar{
+    position: relative;
+    left: 19vw;
+    height: 4.3vh;
+    width: 27vw;
+    padding-left: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.7vh;
+    background-color: white;
+    
+}
+#input-search-bar-header{
+    /* border: 1px solid green; */
+    height: 4.1vh;
+    width: 24vw;
+    /* border-radius: 0.3vw; */
+    outline: none;
+
+}
+#div-fundo-lupa{
+    /* border: 1px solid #4b0081; */
+    /* height: vh;
+    width: 2.3vw; */
+    display: flex;
+    justify-content: center;
+    border-radius: 0.57vh;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 100;
+    background-color: white;
+
+}
+#div-fundo-lupa:active{
+    background-color: black;
+}
+#imagem-lupa-search-bar{
+    position: relative;
+    height: 4vh;
+    width: 3vw;
+
+}
+#imagem-lupa-search-bar:active{
+    left: 5%;
+}
+header ul{
+    /* border: 1px solid green; */
+    position: relative;
+    left: 13vw;
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+    width: 25.6vw;
+}
+header ul li a{
+    font-size: 2.8vh;
+    color: white;
+    text-decoration: none;
+
+}
+
+header ul li a:hover{
+    color: black;
+    padding: 0.3vw;
+}
+
+#login-botao-header{
+    border: 2px solid white;
+    position: relative;
+    left: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2vh;
+    height: 5vh;
+    width: 7vw;
+}
+#login-botao-header:hover{
+    padding: 0.1%;
+}
+#login-botao-header a{
+    color: white;
+
+}
+#botao-perfil-header{
+    /* border: 2px solid brown; */
+    height: 8vh;
+    width: 5vw;
+    box-sizing: border-box;
+}
+#botao-perfil-header:hover{
+    opacity: 0.8;
+}

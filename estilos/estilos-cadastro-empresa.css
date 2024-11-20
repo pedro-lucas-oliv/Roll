@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Righteous;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: #4b0081;
+    box-sizing: border-box;
+
+}
+
+@font-face{
+    font-family: Righteous;
+    src: url(../fontes/Righteous/Righteous-Regular.ttf) format("truetype")
+
+}
+
+body{
+    background-color: #4b0081;
+}
+#main{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    background-color:  #4b0081 ;
+    padding-left: 2%;
+    padding-right: 0.5%;
+    z-index: 1;
+    /* color: rgb(0, 0, 0, 0); */
+
+}
+#logo-header{
+    height: 4vh;
+    width: 5vw;
+}
+#search-bar{
+    position: relative;
+    left: 19vw;
+    height: 4.3vh;
+    width: 27vw;
+    padding-left: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.7vh;
+    background-color: white;
+    
+}
+#input-search-bar-header{
+    /* border: 1px solid green; */
+    height: 4.1vh;
+    width: 24vw;
+    border-radius: 0.3vw;
+    outline: none;
+
+}
+#div-fundo-lupa{
+    height: 100%;
+    width: 2.3vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.57vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: white;
+    /* #9775da */
+
+}
+
+#imagem-lupa-search-bar{
+    height: 4vh;
+    width: 3vw;
+    position: relative;
+    
+
+}
+#imagem-lupa-search-bar:active{
+    left: 5%;
+}
+header ul{
+    /* border: 1px solid green; */
+    height: 3vh;
+    width: 25.6vw;
+    position: relative;
+    left: 13vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header ul li a{
+    font-size: 2.8vh;
+    color: white;
+}
+
+header ul li a:hover{
+    color: black;
+    padding: 0.3vw;
+}
+
+#login-botao-header{
+    height: 5vh;
+    width: 7vw;
+    border: 2px solid white;
+    position: relative;
+    left: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2vh;
+    
+}
+#login-botao-header:hover{
+    padding: 0.1%;
+}
+#login-botao-header a{
+    color: white;
+}
+#botao-perfil-header{
+    /* border: 2px solid brown; */
+    height: 8vh;
+    width: 5vw;
+    box-sizing: border-box;
+}
+#botao-perfil-header:hover{
+    opacity: 0.8;
+}
+
+
+#div-caixa-formulario{
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    padding: 2vw;
+    background-color: white;
+
+}
+
+#div-titulo-formulario{
+    /* border: 1px solid black; */
+    height: 13%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#div-titulo-formulario p{
+    font-size: 200%;
+    color: black;
+}
+
+#div-campos-formulario{
+    /* border: 1px solid green; */
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1%;
+
+}
+.input-formulario-cadastro-empresa{
+    /* border: 1px solid blue; */
+    height: 20%;
+    width: 46%;
+    border-radius: 1vh;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+    padding: 2%;
+    font-size: 110%;
+    outline: 1px solid #4b0081;
+    
+}
+.input-formulario-cadastro-empresa:focus{
+    outline: 3px solid #4b0081;
+
+}
+.input-formulario-cadastro-empresa::placeholder{
+    color: #838383;
+    font-size: 140%;
+}
+#botao-registrarSe-caixa-formulario{
+    height: 12%;
+    width: 20%;
+    border-radius: 3vh;
+    box-sizing: border-box;
+    padding: 0.5%;
+    font-size: 140%;
+    background-color: #4b0081;
+
+}
+#botao-registrarSe-caixa-formulario:hover{
+    position: relative;
+    bottom: 0.1vh;
+}
+#botao-registrarSe-caixa-formulario:active{
+    background-color: black;
+}
+#botao-registrarSe-caixa-formulario p{
+    color: white;
+}

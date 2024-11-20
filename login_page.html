@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./estilos/estilo_login_page.css">
+    <title>Login or Sign</title>
+</head>
+
+<body>
+    <header>
+        <img src="./imagens-cadastro-empresas/Logo.png" alt="" id="logo-header">
+        <div id="search-bar">
+            <input type="text" id="input-search-bar-header">
+            <div id="div-fundo-lupa">
+                <img src="./imagens-cadastro-empresas/search_1000dp_4B0081_FILL0_wght400_GRAD0_opsz48.svg" alt="" id="imagem-lupa-search-bar">
+            </div>
+        </div>
+        
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="./lista_estab.html">Eventos</a></li>
+            <li><a href="lista_estab.html">Estabelecimentos</a></li>
+            <li><a href="/contato_page.html">Contato</a></li>
+        </ul>
+        <div id="login-botao-header"> <a href="login_page.html">Login</a></div>
+        <img src='./imagens-cadastro-empresas/account_circle_1000dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg' id="botao-perfil-header">
+    </header>
+    
+
+    
+    <div class="container" id="container">
+        <div class="form-container sign-up"><!--Formulario de cadastro-->
+            <form>
+                <h1 style="color: #4b0081;">Cadastre-se</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <!--<a href="#" class="icon"><i class="fa-brands fa-github"></i></a> -- Caso queira adicionar mais coisas-->
+                    <!--<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>-->
+                </div>
+                <span style="color: #4b0081;">ou use o seu email para se cadastrar</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Cadastrar</button>
+            </form>
+        </div>
+        <div class="form-container sign-in"><!--Formulário de Login-->
+            <form>
+                <h1 style="color: #4b0081;">Login</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <!--<a href="#" class="icon"><i class="fa-brands fa-github"></i></a> -- Caso queira adicionar mais coisas-->
+                    <!--<a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>-->
+                </div>
+                <span style="color: #4b0081;">ou use seu email e senha</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueci minha senha</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+        <div class="toggle-container"> <!--Container de virada-->
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Já possui conta?</h1>
+                    <p>Entre usando o seu email pessoal e acesse as funções desejadas!</p>
+                    <button class="hidden" id="login">Entrar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, [placeholder]!<!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Document</title>
+                    </head>
+                    <body>
+                        
+                    </body>
+                    </html></h1>
+                    <p>Registre-se para acessar as funções adicionais em nosso site!</p>
+                    <button class="hidden" id="register">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./scripts/script_login_page.js"></script>
+</body>
+
+</html>
